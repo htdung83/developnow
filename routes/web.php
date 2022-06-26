@@ -30,3 +30,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/refactor-code', [\App\Http\Controllers\TestController::class, 'refactorCode']);
+Route::get('/logic-test', [\App\Http\Controllers\TestController::class, 'logicTest']);

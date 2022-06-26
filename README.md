@@ -19,6 +19,13 @@
 - php artisan optimize
 - php artisan migrate
 
-## Test
+## Refactor code and Logic Test
+
+Please run the following routes after run `php artisan serve` in your command prompt:
+
+- Refactor code: http://<host_name>/refactor-code
+- Logic test: http://<host_name>/refactor-code
+
+## Laravel Test
 
 - composer test
